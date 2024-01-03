@@ -17,13 +17,13 @@ author_profile: true
     <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     <div class="float-layout">
       <div class="writing-card-image">
-      <img src="{{ post.date | date: "%Y%m%d/" | prepend: "/images/talks"}}{{ post.date | date: "%Y%m%d_1.jpg" }}">
+      <img src="{{ post.date | date: "%Y%m%d/" | prepend: "/images/talks/"}}{{ post.date | date: "%Y%m%d_1.jpg" }}">
         <div class="writing-card-content">
           <div class="writing-card-title">
             {{ post.title }}
           </div>
           <div class="writing-card-text">
-            I am trying a better way to represent talks...
+            {{ post.excerpt | markdownify }} 
           </div>
           <div class="writing-card-text-muted">
             {{ post.date | date: '%B %d, %Y' }}
@@ -35,7 +35,3 @@ author_profile: true
 </div>
 {% endfor %}
 
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
