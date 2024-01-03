@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Trushant Adeshara"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Trushant Adeshara"
-description              : &description "personal description"
-url                      : https://Trushant-Adeshara-UM.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "UMich Robotics Graduate"
+url                      : "https://Trushant-Adeshara-UM.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Trushant-Adeshara-UM/Trushant-Adeshara-UM.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Trushant Adeshara"
   avatar           : "profile.jpg"
-  bio              : "Robotics Researcher Connecting Bits with Qubits"
+  bio              : "UMich Robotics Graduate"
   location         : "Ann Arbor, Michigan"
   employer         :
   pubmed           : 
