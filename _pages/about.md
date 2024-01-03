@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Summary"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ Dedicated and persistent, I consistently pursue solutions until they materialize
 
 
 
-Blogs
+<!--Blogs
 =====
 <hr>
 
@@ -28,6 +28,6 @@ Blogs
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %}-->
 
 
