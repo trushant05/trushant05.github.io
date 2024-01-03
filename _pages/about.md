@@ -9,14 +9,11 @@ redirect_from:
 ---
 
 <p style="text-align: justify">
-Incoming Robotics Graduate at University of Michigan, Ann Arbor with experience in understanding problem statement and articulating solution from idea to design and further prototyping to testing. Fuelled by idea of integrating robots with quantum computers. Ranging from micro-air vehicles to industrial autonomous mobile robots, I have experienced how different verticals merge in robotics.</p>
+Robotics Graduate Student at the University of Michigan, Ann Arbor, adept at deciphering complex problem statements and translating them into comprehensive solutions. My journey involves navigating from conceptualization to design, followed by prototyping and rigorous testing. Passionate about the convergence of robotics and quantum computing, I specialize in a spectrum of applications, spanning micro-air vehicles to industrial autonomous mobile robots.</p>
 
 <p style="text-align: justify">
-It's said, "When your back is against the wall, one shall start all over again." I am consistent and always striving until a probable solution emerges. Forever a learner, looking at the skyline of robotics sitting on the shoulder of the giants.</p>
+Dedicated and persistent, I consistently pursue solutions until they materialize. Forever driven by a passion for learning, I find inspiration in the vast landscape of robotics, standing on the shoulders of giants.</p>
 
-<p style="text-align: justify">
-"Nothing is impossible until you execute those minuscule changes, go for it and I believe you can do it. In coordination with the right team anything can be achieved in given amount of time.
-</p>
 
 
 Blogs
