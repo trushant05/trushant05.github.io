@@ -26,7 +26,8 @@ author_profile: true
             {{ post.excerpt | markdownify }} 
           </div>
           <div class="writing-card-text-muted">
-            {{ post.date | date: '%B %d, %Y' }}
+            {{ post.date | date: '%B %d, %Y' }}<br>
+            {{ post.location }}
           </div>
         </div>
       </div>
