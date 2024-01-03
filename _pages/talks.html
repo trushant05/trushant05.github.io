@@ -14,10 +14,10 @@ author_profile: true
 {% for post in site.talks reversed %}
 <div class="writing-list">
   <div class="card-container">
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}></a>
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     <div class="float-layout">
       <div class="writing-card-image">
-      <img src="/images/talks/20190725/20190725_1.jpg">
+      <img src="{{ post.date | date: "%Y%m%d/" | prepend: "/images/talks"}}{{ post.date | date: "%Y%m%d_1.jpg" }}">
         <div class="writing-card-content">
           <div class="writing-card-title">
             {{ post.title }}
