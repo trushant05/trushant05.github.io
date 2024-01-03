@@ -1,0 +1,28 @@
+# main links links
+main:
+# - title: "Publications"
+#   url: /publications/
+
+# - title: "Teaching"
+#   url: /teaching/    
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Work Experience"
+    url: /work/
+
+  - title: "Projects"
+    url: /projects/
+    
+  - title: "CV"
+    url: /cv/
+
+  - title: "Blog Posts"
+    url: /year-archive/
+
+  - title: "Talks"
+    url: /talks/
+    
+# - title: "Guide"
+#   url: /markdown/
