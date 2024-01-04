@@ -60,6 +60,15 @@
   margin-bottom: 15px;
 }
 
+a.card:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.card:visited {
+  color: inherit;
+}
+
 .card-deck {
   margin-bottom: 1.5rem;
   display: block;
