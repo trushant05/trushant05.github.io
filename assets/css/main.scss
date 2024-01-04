@@ -117,12 +117,9 @@
 
 .project-list {
   display: flex;
-  gap: 10px;
   gap: 10px 20px; /* row-gap column gap */
-  row-gap: 20px;
-  column-gap: 20px;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: space-around;
   padding-bottom:50px;
 }
 
