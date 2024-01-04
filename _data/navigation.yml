@@ -9,11 +9,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Work Experience"
-    url: /work/
-
   - title: "Projects"
     url: /projects/
+
+  - title: "Work Experience"
+    url: /work/
     
   - title: "CV"
     url: /cv/
