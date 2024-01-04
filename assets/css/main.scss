@@ -129,7 +129,7 @@
   display: flex;
   gap: 10px 20px; /* row-gap column gap */
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: stretch;
   padding-bottom: 50px;
 }
 
