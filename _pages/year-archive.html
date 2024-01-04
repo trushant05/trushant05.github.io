@@ -16,4 +16,26 @@ redirect_from:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
+  
+<div class="writing-list">
+  <div class="card-container">
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    <div class="float-layout">
+      <div class="writing-card-image">
+      <img src="{{ post.date | date: "%Y%m%d/" | prepend: "/images/blogs/"}}{{ post.date | date: "%Y%m%d_1.jpg" }}">
+        <div class="writing-card-content">
+          <div class="writing-card-title">
+            {{ post.title }}
+          </div>
+          <div class="writing-card-text">
+            {{ post.excerpt | markdownify }} 
+          </div>
+          <div class="writing-card-text-muted">
+            {{ post.date | date: '%B %d, %Y' }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endfor %}
