@@ -15,7 +15,7 @@ Education
 
 | Degree, University / School                                                | Grade       |Duration |  
 | :---                                                                       | :---        |    ---: |
-| M.S. in Robotics, University of Michigan                                   |             | *Jul, 2023 - Present* |
+| M.S. in Robotics, University of Michigan                                   | GPA 3.7/4   | *Jul, 2023 - Apr, 2025* |
 | B.E. in Computer Science and Engineering, Gujarat Technological University | CGPA 9.8/10 | *Jun, 2018 - May, 2022* |
 | Secondary & Higher Secondary Education, Bright School                      | First Class | *May, 2018 - Jun, 2015* |
 
@@ -97,7 +97,8 @@ Publications
 
 <br>
 --->
-  
+ 
+<!---
 Talks
 ======
 <hr>
@@ -107,6 +108,7 @@ Talks
   {% endfor %}</ul>
 
 <br>
+--->
   
 Service and Leadership
 ======
