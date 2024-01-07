@@ -15,4 +15,8 @@ Robotics Graduate Student at the University of Michigan, Ann Arbor, adept at dec
 At Wastefull Insights I developed system and software architecture for gantry-based pick-and-place waste segregation robots. Additionally, at Botsync, I crafted behavioral maps for multi-robot systems. Dive into my portfolio to explore my hands-on experience and discover more about my contributions in the dynamic realm of robotics.</p>
 
 
-
+Highlights
+===
+<ul>
+<li> Mentor at HackMIT 2023 </li>
+</ul>
