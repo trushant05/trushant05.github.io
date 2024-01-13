@@ -2,6 +2,11 @@
 title: "eYantra Robotics Competition"
 excerpt: "Pre-emptive scheduling algorithm for task allocation which could be used in drones at the time of survey and rescue in disaster afflicted areas.<br/><img src='/images/projects/eyrc/eyrc_pv.jpg'>"
 collection: projects
+tags:
+  - ROS1
+  - Gazebo
+  - OpenCV
+  - Python
 ---
 
 <p style="text-align: justify">
