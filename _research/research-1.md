@@ -3,4 +3,4 @@ title: "Armlab"
 collection: research
 ---
 
-This is an item in your research. It can have images or nice text.
+Armlab project which uses RX200 interbotix robotics arm.
