@@ -1,6 +1,5 @@
 ---
-title: "Research 1"
-excerpt: "Short description of research 1 <br/><img src='/images/500x300.png'>"
+title: "AIDDAM"
 collection: research
 ---
 
