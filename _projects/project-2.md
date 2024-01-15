@@ -1,6 +1,5 @@
 ---
 title: "ROS Rover"
-excerpt: "Proposal for ROS Based Rover for Robofest 2.0 <br/><img src='/images/projects/ros_rover/sa_pv.jpg'>"
 collection: projects
 ---
 

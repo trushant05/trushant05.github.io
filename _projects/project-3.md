@@ -1,6 +1,5 @@
 ---
 title: "Jetson Mate Cluster"
-excerpt: "Homogeneous Cluster Computer. <br/> <img src='/images/projects/jetson_mate/jm_pv.jpg'>"
 collection: projects
 ---
 
