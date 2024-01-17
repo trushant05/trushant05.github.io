@@ -3,7 +3,7 @@ title: "Armlab"
 collection: research
 ---
 
-In the ROB 550 Robotic Systems Lab's Arm module, I honed my skills in working with a 5-DOF robotic arm, building a comprehensive system around it. Here's a snapshot of my learnings:
+Armlab was the first half of the ROB 550: Robotics System Lab wherein I honed my skills in working with a 5-DOF robotic arm, building a comprehensive system around it. Here's a snapshot of my learnings:
 
 **Acting:**
 - Forward kinematics modeling of a manipulator
