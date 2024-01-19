@@ -3,4 +3,4 @@ title: "Botlab"
 collection: research
 ---
 
-This is an item in your research. It can have images or nice text.
+Botlab is the second part of ROB 550: Robotics System Lab
