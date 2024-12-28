@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2024-12-27T17:24:06-08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Home</title><subtitle>UMich Robotics Graduate</subtitle><author><name>Trushant Adeshara</name><email>trushant@umich.edu</email></author><entry><title type="html">Robotics Makerspace Training at Ford Motor Company Robotics Building</title><link href="http://0.0.0.0:4000/posts/2023/08/blog-post-1/" rel="alternate" type="text/html" title="Robotics Makerspace Training at Ford Motor Company Robotics Building" /><published>2023-08-29T00:00:00-07:00</published><updated>2023-08-29T00:00:00-07:00</updated><id>http://0.0.0.0:4000/posts/2023/08/blog-post-1</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2023/08/blog-post-1/"><![CDATA[<p style="text-align: justify">
+Crafted an Illuminated Cube: Harnessing Rapid Prototyping to Sculpt a Stunning 'M'-Emblazoned Masterpiece.</p>
+
+<p style="text-align: justify">
+My second day at the University of Michigan marked the begnning of an exciting journey in the world of robotics. I enrolled in the ROB 550: Robotics System Lab course, and the very first task was to complete Basic I and Basic II training to gain access to the Robotics Makerspace.</p>
+
+<p style="text-align: justify">
+What makes this course truly remarkable is that it seamlessly blends theory with hands-on experience right from day one. While I had prior experience with 3D printing, working with metal and acrylic with a laser cutter was a whole new adventure. In this blog post, I'll take you through the steps I followed to create a light cube with the letter 'M' engraved on it.</p>
+
+<p style="text-align: center">
+<img src="/images/blogs/20230829/20230829_1.jpg" /></p>
+
+<p><strong>Step 1</strong></p>
+<p style="text-align: justify">
+First I use the Fablight laser cutter to create the connection lines for PCB containing LEDs and CR2032 battries. It was my first encounter with such a high-power machine, and the precision of the results left me thoroughly impressed.</p>
+
+<p><strong>Step 2</strong></p>
+<p style="text-align: justify">
+Moving on, I utilized a CO2 laser cutter to craft the top of the cube. This step also involved engraving the letter 'M' on the top surface, which would beautifully reflect the light emitted by the five SMD LEDs.</p>
+
+<p style="text-align: center">
+<img src="/images/blogs/20230829/20230829_2.jpg" /></p>
+
+<p><strong>Step 3</strong></p>
+<p style="text-align: justify">
+For the main casing of the cube, I turned to 3D printing, as it demanded quite some time we were already given the casing but the toggle switch was ours to print.</p>
+
+<p style="text-align: center">
+<img src="/images/blogs/20230829/20230829_3.jpg" /></p>
+
+<p><strong>Step 4</strong></p>
+<p style="text-align: justify">
+Perhaps the most challenging phase of the project was step four, which required intense concentration. Soldering SMD components with a soldering iron can be tricky, especialy when working with such small components. While the LEDs posed relatively fewer challenges, soldering the resistors demanded a steady hand. To achieve precision, I developed a technique: applying solder to one pad first, then carefully positioning the SMD component with tweezers and reheating the pad. At the end I took some wipes with Isopropyle Alcohol and cleaned up the PCS.</p>
+
+<p style="text-align: center">
+<img src="/images/blogs/20230829/20230829_4.jpg" /></p>
+
+<p><strong>Step 5</strong></p>
+<p style="text-align: justify">
+The final step involved assembly. I used hex bolts and brass inserts to enclose the box, securing the PCB and the engraved acrylic sheet. This entire experience was incredibly empowering, granting me access to powerful machines that will enable me to embark on even more creative and intricate projects in the days to come.</p>
+
+<p style="text-align: justify">
+In essence, my journey into the world of robotics at the University of Michigan has only just begun, and I can't wait to see where it leads me. With each step, I'm gaining not only technical skils but also a profound sense of accomplishment and the ability to bring my ideas to life. Stay tuned for more exciting projects and updates! Go Blue ... </p>
+
+<p style="text-align: center">
+<img src="/images/blogs/20230829/20230829_5.jpg" /></p>]]></content><author><name>Trushant Adeshara</name><email>trushant@umich.edu</email></author><category term="UMich" /><category term="FMCRB" /><summary type="html"><![CDATA[Crafted an Illuminated Cube: Harnessing Rapid Prototyping to Sculpt a Stunning 'M'-Emblazoned Masterpiece.]]></summary></entry></feed>
