@@ -19,7 +19,7 @@
 
 
 
-<title>eYantra Robotics Competition - Home</title>
+<title>eYantra Robotics Competition 2019-20 - Home</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Home">
-<meta property="og:title" content="eYantra Robotics Competition">
+<meta property="og:title" content="eYantra Robotics Competition 2019-20">
 
 
   <link rel="canonical" href="http://0.0.0.0:4000/projects/project-1/">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="e-Yantra Robotics Competition is a six month long competition which need to be accomplished in a team of 4. Our theme was Survey and Rescue in which we have to develop a pre-emptive scheduling algorithm for a drone which will aid individuals afflicted by natural disaster.">
+  <meta property="og:description" content="The eYantra Robotics Competition is a prestigious six-month event requiring teamwork, technical expertise, and innovative problem-solving. As part of a four-member team, our theme was Survey and Rescue, where we developed a pre-emptive scheduling algorithm for a drone to aid individuals affected by natural disasters.">
 
 
 
@@ -251,15 +251,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="eYantra Robotics Competition">
-    <meta itemprop="description" content="e-Yantra Robotics Competition is a six month long competition which need to be accomplished in a team of 4. Our theme was Survey and Rescue in which we have to develop a pre-emptive scheduling algorithm for a drone which will aid individuals afflicted by natural disaster.">
+    <meta itemprop="headline" content="eYantra Robotics Competition 2019-20">
+    <meta itemprop="description" content="The eYantra Robotics Competition is a prestigious six-month event requiring teamwork, technical expertise, and innovative problem-solving. As part of a four-member team, our theme was Survey and Rescue, where we developed a pre-emptive scheduling algorithm for a drone to aid individuals affected by natural disasters.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">eYantra Robotics Competition
+          <h1 class="page__title" itemprop="headline">eYantra Robotics Competition 2019-20
 </h1>
           
         
@@ -274,47 +274,43 @@
 
       <section class="page__content" itemprop="text">
         <p style="text-align: justify">
-e-Yantra Robotics Competition is a six month long competition which need to be accomplished in a team of 4. Our theme was Survey and Rescue in which we have to develop a pre-emptive scheduling algorithm for a drone which will aid individuals afflicted by natural disaster.</p>
+The <b>eYantra Robotics Competition</b> is a prestigious six-month event requiring teamwork, technical expertise, and innovative problem-solving. As part of a four-member team, our theme was <b>Survey and Rescue</b>, where we developed a <b>pre-emptive scheduling algorithm</b> for a drone to aid individuals affected by natural disasters.</p>
 
 <p style="text-align: justify">
-<b>Task 0</b> was setting up the system with Gazebo simulator. Other software we used was ROS (Robot Operating System) Kinetic and underlying operating system was Ubuntu 16.04. Primary language of implementation was Python. After setup was done, we received Task 1 which was as follow:</p>
+Our journey began with <b>Task 0</b>, setting up a simulation environment using <b>Gazebo, ROS Kinetic,</b> and <b>Ubuntu 16.04</b>, with <b>Python</b> as the primary implementation language. Subsequent tasks included:</p>
 
 <p style="text-align: justify">
-<b>Task 1.1</b> - Position hold of the drone in a simulation
-	   The drone should hold its position in the given simulation scene at the given point [2, 2, 20] using the PID control algorithm.
+<b>Task 1.1</b> - Implementing <b>position hold</b> for the drone at a specific point [2, 2, 20] using a <b>PID control algorithm</b> in simulation.
 </p>
 
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xRDrj8BBL4Y?si=0mCUtrI0Pf1qUYVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
 
 <p style="text-align: justify">
-<b>Task 1.2</b> - Waypoint navigation of the drone in a simulation
-	   The drone should visit the given waypoint coordinates in the simulation using the PID control algorithm. Waypoints are in the form (x, y, z).
-	   [(0.2, 0, 23), (3.5, -3.3, 23), (-4.4, -4.6, 20.7), (-6.0, 6.3, 18.3), (5.0, 5.3, 16.3)]
-</p>
+<b>Task 1.2</b> - Programming <b>waypoint navigation</b> for the drone to traverse a set of 3D coordinates using the PID controller. Waypoints are in the form (x, y, z).</p>
 
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p4Qnun8-WfE?si=4zsKicBg2dkS9Vfi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
 
 <p style="text-align: justify">
-Once the simluation was complete, we were given physical hardware to implement. Alongwith that we were provided with an overhead camera, RGB LED as beacon and we used WayCon Marker to locate drone through the camera after its calibration.</p>
+After completing simulations, we transitioned to physical hardware, where we integrated an overhead camera, an RGB LED as a beacon, and a WayCon Marker for drone localization after camera calibration.</p>
 
 <p style="text-align: justify">
-In the final task a random sequence was given for three colors, each indicating a specific service with a priority level. There were three colors:</p>
+In the final task, we tackled dynamic challenges involving <b>three priority-based services</b>:</p>
 <ul>
-  <li>Red - Rescue</li>
-  <li>Green - Food</li>
-  <li>Blue - Medicine</li>
+ <li> <b>Red (Rescue)</b> - Highest priority, requiring the drone to return to the homing position after service. </li>
+ <li> <b> Blue (Medicine)</b> - Medium priority. </li>
+ <li> <b> Green (Food)</b> - Lowest priority. </li>
 </ul>
 
 <p style="text-align: justify">
-Highest priority was given to Rescue (Red) but to accomplish that the drone has to visit homing position after the service. Second priority was given to Medicine (Blue) and last one to Food (Green). I alongside my team first tuned the PID algorithm for the physical drone and later on developed a pre-emptive schedluing algorithm. Overall it was a rewarding experience filled with sleepless nights and managing exams with task submission deadlines. One hardship I faced was that the team constituted of four individuals but half way through we were just two remaining.</p>
+To succeed, we fine-tuned the PID algorithm for the physical drone and developed a pre-emptive scheduling algorithm to manage tasks effectively.</p>
 
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/91-KuGHN9CY?si=PXUnFKIFkjv-0yfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
 
 <p style="text-align: justify">
-This was my first thorough experience working with ROS. Even with the challenges our team managed to rank 6th nationwide. I am grateful to eYantra for providing me this opportunity and especially to Prof. Kavi Arya, the man behind the initiative.</p>
+Despite unforeseen challenges—such as losing half of our team midway through the competition—we persevered and secured <b>6th place nationwide</b>. This project provided my first comprehensive experience with <b>ROS</b>, taught me resilience under pressure, and reinforced the value of teamwork. I remain deeply grateful to <b>eYantra</b> and <b>Prof. Kavi Arya</b> for this incredible learning opportunity.</p>
 
         
       </section>
