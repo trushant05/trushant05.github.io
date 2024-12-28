@@ -13,7 +13,7 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 
 <h2>Implementation Methodology</h2>
 <ol>
-<li><h2>Forward and Inverse Kinematics (IK/FK): </h2></li>
+<h3><li>Forward and Inverse Kinematics (IK/FK): </li></h3>
 
 <p style="text-align: justify">
 <b>Forward Kinematics</b>:  Utilized the Denavit-Hartenberg (DH) parameterization to calculate the end-effector’s position and orientation. This involved defining the RX200 robotic arm’s geometry and solving transformation matrices to map joint angles to global coordinates.</p>
@@ -27,7 +27,7 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ideIQyKmkjk?si=31MZQyy3GmKgdrmy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
-<li><h2>Automatic Camera Calibration with AprilTags</h2></li>
+<h3><li>Automatic Camera Calibration with AprilTags</li></h3>
 
     <ul>
     <li>Leveraged AprilTags for camera extrinsic calibration. By detecting known AprilTag positions in the workspace, the system calculated the transformation matrix between the camera and the robot’s base frame.</li>
@@ -38,7 +38,7 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V8SBXsi8USc?si=8zo1kFTeT1C0KX1u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
-<li><h2>Object Detection</h2></li>
+<h3><li>Object Detection</li></h3>
 
     <ul>
     <li>Implemented a block detection algorithm using OpenCV. The algorithm identified block positions, shapes, and colors (red, green, blue, and more) using a combination of depth imaging and RGB image analysis.</li>
@@ -49,7 +49,7 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 <p style="text-align: justify">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wkHn5D2LIs?si=l2AEPqZb5J3BsQ9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
-<li><h2>Pick-and-Place Task</h2></li>
+<h3><li>Pick-and-Place Task</li></h3>
 
     <ul>
     <li>Designed a state machine to automate the pick-and-place process. The system integrated IK, FK, and camera data to:</li>
@@ -67,7 +67,7 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 
 </ol>
 
-<h2>Results and Challenges</h2>
+<h3>Results and Challenges</h3>
 * <b> Competitions </b>: Successfully participated in challenges such as sorting, stacking, and arranging blocks, achieving high accuracy and efficiency under time constraints.
 * <b> Accuracy </b>: Verified FK/IK outputs using controlled test cases and calibrated camera data. Errors were minimized through iterative adjustments and robust algorithm design.
 * <b> Future Improvements </b>: While the implementation was successful, enhancements in gripper design and motion smoothing could improve performance further.
