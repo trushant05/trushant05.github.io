@@ -4,40 +4,42 @@ collection: projects
 ---
 
 <p style="text-align: justify">
-Jetson Mate, designed by Seeed Studio, is a versatile cluster computer capable of accommodating up to four Jetson Modules. Whether it is a Jetson Nano 2GB, 4GB, or the powerful Jetson NX, this device is gateway to exploring the world of parallel computing.</p>
+The Jetson Mate, designed by Seeed Studio, is a cluster computer capable of hosting up to four Jetson modules. Whether you're working with the Jetson Nano 2GB, the 4GB version, or the powerful Jetson NX, the Jetson Mate provides a versatile platform for delving into parallel computing.</p>
 
 <p style="text-align:center">
 <img src='/images/projects/jetson_mate/IMG_20230117_163425.jpg'></p>
 
-<h2>A Quest for Jetson Modules</h2>
+<h2>The Hunt for Jetson Modules</h2>
 <p style="text-align: justify">
-I embarked on this adventure with two Jetson Modules in hand, eager to find two more. My quest coincided with a critical moment - Nvidia had just discontinued the Jetson Nano SD series. But fortune smiled upon me when the ROS Developer Summit, organized by Rigbetel Lab in Pune, came to my rescue. Thanks to my good friend Pranshu Tople, I was able to secure the missing pieces – two additional Jetson Nano modules.</p>
+My journey with the Jetson Mate began with two Jetson modules in hand and a mission to find two more. The timing was challenging, as Nvidia had recently discontinued the Jetson Nano SD series. However, serendipity struck at the ROS Developer Summit in Pune, organized by Rigbetel Lab. With the help of my friend Pranshu Tople, I secured two additional Jetson Nano modules, completing my cluster setup.</p>
 
-<h2>Getting Started</h2>
+<h2>Preparing the Jetson Cluster</h2>
 <p style="text-align: justify">
-My first task was to bring all four Jetson Nano Boards to the same page. I installed the same JetPack version (4.6) on each module and assigned them distinct names in a simple, iterative fashion. I also configured incremental IP addresses for easy identification.</p>
+The first step was synchronizing all four Jetson Nano boards by installing the same JetPack version (4.6) and giving each module a unique name and incremental IP address for easy identification.</p>
 
 <p style="text-align:center">
 <img src='/images/projects/jetson_mate/jetson_stat.png'></p>
 
-<h2>Testing the Waters</h2>
+<h2>Testing and Configuration</h2>
 <p style="text-align: justify">
-Next, it was time to put them to the test. Jetson Mate provided a convenient solution with one USB 3.0 port per board, allowing me to establish serial communication and interact seamlessly. I even crafted a handy configuration script to set up a Kubernetes cluster, setting the stage for future load balancing experiments.</p>
+With the hardware ready, I tested each module using the Jetson Mate's convenient USB 3.0 ports for serial communication. To streamline the setup, I created a configuration script for setting up a Kubernetes cluster, laying the groundwork for future load balancing experiments.</p>
 
-<h2>Setting Up the Clusters</h2>
+<h2>Building the Clusters</h2>
 <p style="text-align: justify">
-I ensured smooth communication between nodes by configuring each one with an SSH key. Here's the hardware setup I used:</p>
+To enable seamless communication, I configured each module with an SSH key. Here’s how the cluster was organized:</p>
 
-- Master Node: Jetson Nano 4GB
-- Node 1: Jetson Nano 4GB
-- Node 2: Jetson Nano 2GB
-- Node 3: Jetson Nano 2GB
+* <b>Master Node</b>: Jetson Nano 4GB
+* <b>Node 1</b>: Jetson Nano 4GB
+* <b>Node 2</b>: Jetson Nano 2GB
+* <b>Node 3</b>: Jetson Nano 2GB
 
 <p style="text-align: justify">
-This setup allowed me to log into each node effortlessly. For a comprehensive view, I relied on the master node to perform benchmarking tests.</p>
+This setup allowed me to log into each node effortlessly. Using the master node as the command center, I conducted benchmarking tests and monitored the system.</p>
 
-<h2>The Countdown Begins</h2>
+<h2>Racing Against Time</h2>
 <p style="text-align: justify">
-With a ticking clock and just four hours before my train departure, I had to wrap things up. But my journey with Jetson Mate was far from over. In my next phase, I planned to attach a camera to the master node. This camera would capture image frames or stream via GStreamer, distributing the feed to all three nodes. These nodes would then work their magic, executing dedicated vision algorithms like color detection, object detection, and overlapping inference to provide a synchronized output.</p>
+With only four hours before my train departure, I had to conclude the initial phase of my exploration. But this was just the beginning. In the next phase, I plan to attach a camera to the master node to capture image frames or stream video via GStreamer. This feed will be distributed across the three nodes, where each will run dedicated vision algorithms such as color detection, object detection, and overlapping inference. The goal is to achieve a synchronized output, showcasing the true potential of parallel computing.</p>
 
-Stay tuned as I continue to explore the world of parallel computing with Jetson Mate!
+<h2>Stay Tuned!</h2>
+<p style="text-align: justify">
+The Jetson Mate has opened the door to exciting possibilities in parallel computing. As I continue this journey, I’ll share updates and insights on leveraging this powerful cluster computer for real-world applications. Stay tuned for the next chapter! </p>
