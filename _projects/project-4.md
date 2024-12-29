@@ -71,3 +71,12 @@ The Armlab project, part of the ROB 550 curriculum in Fall 2023, was a comprehen
 * <b> Competitions </b>: Successfully participated in challenges such as sorting, stacking, and arranging blocks, achieving high accuracy and efficiency under time constraints.
 * <b> Accuracy </b>: Verified FK/IK outputs using controlled test cases and calibrated camera data. Errors were minimized through iterative adjustments and robust algorithm design.
 * <b> Future Improvements </b>: While the implementation was successful, enhancements in gripper design and motion smoothing could improve performance further.
+
+<h3>Armlab Project Report</h3>
+<iframe 
+    src="/files/projects/armlab/armlab.pdf" 
+    width="100%" 
+    height="600px" 
+    style="border: none;">
+    <p>Your browser does not support embedding PDFs. <a href="/files/projects/armlab/armlab.pdf" target="_blank">Download the PDF</a>.</p>
+</iframe>

@@ -59,3 +59,12 @@ The BotLab project was part of the ROB 550 curriculum in Fall 2023, focusing on 
 <h3>Results and Challenges</h3>
 * <b> Maze Eploration </b>: Successfully mapped a maze, returned to the starting pose, and achieved high accuracy in map quality.
 * <b> Warehouse Task </b>: Completed the pick-and-place challenge by retrieving and placing multiple targets within time constraints.
+
+<h3>Botlab Project Report</h3>
+<iframe 
+    src="/files/projects/botlab/botlab.pdf" 
+    width="100%" 
+    height="600px" 
+    style="border: none;">
+    <p>Your browser does not support embedding PDFs. <a href="/files/projects/botlab/botlab.pdf" target="_blank">Download the PDF</a>.</p>
+</iframe>
